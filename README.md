@@ -33,6 +33,6 @@ PrintQmigrator will only read the lines beginning with \\. So you can easily com
 
 If you only need to disconnect a print queue and NOT to replace with another, just let the "new print queue" empty, i.e :
 
-\\oldserver\oldprintqueu;
+\\oldserver\oldprintqueue;
 
 
