@@ -1,4 +1,4 @@
-# PrintQmigrator
+# PrintQmigrator for Windows
 
 ### General Description
 Some years ago, during the old Windows NT4 time, Microsoft provided ChangePrint.exe as a part of the Windows NT4 resource kit. This tool could be used in the login script and was based on a text file which contained all "Old/New print queues definitions".
