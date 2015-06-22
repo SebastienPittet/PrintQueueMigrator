@@ -33,7 +33,7 @@ Below, you will find a good sample of a text file, that shows you can migrate th
 \\OldServer2\OldPrintQueue2;\\NewServer2\NewPrintqueue2
 ```
 
-PrintQmigrator will only read the lines beginning with \\. So you can easily comment the file.
+PrintQmigrator will only read the lines beginning with double backslashes. So you can easily comment the file with lines above or below the print queues definition.
 
 ### Print queue removal
 If you only need to disconnect a print queue and NOT to replace with another, just let the "new print queue" empty, i.e :
