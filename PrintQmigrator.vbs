@@ -13,21 +13,21 @@ On Error Resume Next
 ' MAIN PROGRAM
 '@@@@@@@@@@@@@
 
-Const TITLE = "PrintQMigrator v.1.1 - sebastien@pittet.org" 'Titre InputBoxes
+Const TITLE = "PrintQMigrator v.1.1" 'Title for InputBoxes
 Const ForReading = 1
 Const DEFAULT_TEXTFILE = "ChangePrinter.txt"
 
 Dim strDefaultPrinter	'store the name of the default printer
 Dim InstalledPrinters	'Array of printer names
-Dim strNoParams			'Text displayed if no parameters is given
-Dim Textfile			'File which contains all printer information
+Dim strNoParams		'Text displayed if no parameters is given
+Dim Textfile		'File which contains all printer information
 Dim OldPrintQueues()	'Dynamic array to store old print queue names, from the text file
 Dim NewPrintQueues()	'Dynamic array to store new print queue names, from the text file
-Dim fso					'File System Object
-Dim objTextFile			'Text file object
-Dim strNextLine			'Line of the text file
-Dim i					'Index used to loop...
-Dim WshNetwork			'Use to work with the print queues (requested because no prnadmin.dll)
+Dim fso			'File System Object
+Dim objTextFile		'Text file object
+Dim strNextLine		'Line of the text file
+Dim i			'Index used to loop...
+Dim WshNetwork		'Use to work with the print queues (requested because no prnadmin.dll)
 
 strNoParams = "This Script reads a text file and set " & _
               "migrate the print queues defined on this computer" & vbCrLf & vbCrLf & _
@@ -104,7 +104,6 @@ For Each objPrinter in colInstalledPrinters
 Next 'End of the loop through the printers of this user
 
 Set WshNetwork = Nothing
-
 
 '@@@@@@@@@@@
 ' Functions
