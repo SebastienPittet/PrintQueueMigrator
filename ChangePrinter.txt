@@ -1,7 +1,4 @@
 #
-#
-# This is a comment line !
-#
 # Migrate all client print queues
 #
 #
@@ -12,10 +9,11 @@
 #
 # Synthax : \\old_Server\old_printqueue;\\New_Server\New_PrintQueue<CRLF>
 # Synthax : You can also have only the old print queue define and not a new one.
-#			 In this case, the old will be removed and nothing will be re-mapped.
+#	    In this case, the old will be removed and nothing will be re-mapped.
 #
 #
 
 \\OldPrintServer\PrinterOne;\\NewPrintServer\PrinterOne
 \\OldPrintServer\PrinterTwo;\\NewPrintServerTwo\PrinterTwo
+\\OldPrintServer\PrintQueueToRemove;
 
