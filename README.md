@@ -1,7 +1,7 @@
 # PrintQmigrator for Windows
 
 ### General Description
-Long time ago, during the old Windows NT4 time, Microsoft provided ChangePrint.exe as a part of the Windows NT4 resource kit. This tool could be used in the login script and was based on a text file which contained all "Old/New print queues definitions". The aim was to manage the connected print queues on the user profiles (update things for the user, remove old printer connections, do some housekeeping).
+Long time ago, during the old Windows NT4 time, Microsoft provided ChangePrint.exe as a part of the Windows NT4 resource kit. This tool could be used in the login script and was based on a text file which contained all "Old/New print queues definitions". **The aim was to manage the connected print queues on the user profiles (update things for the user, remove old printer connections, do some housekeeping)**.
 
 However, ChangePrint does not run anymore from Windows XP and newer Windows OS and Microsoft provides no solution to this problem. Their official answer is: Windows XP support VB scripting, you only need to write some code.
 
